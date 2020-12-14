@@ -8,6 +8,6 @@ public class Leaf extends Component{
 
     @Override
     public String operation() {
-        return  this.name;
+        return name;
     }
 }

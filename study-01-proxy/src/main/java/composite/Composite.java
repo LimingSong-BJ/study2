@@ -11,7 +11,7 @@ public class Composite extends Component{
     }
     @Override
     public String operation() {
-        StringBuilder builder = new StringBuilder(super.name);
+        StringBuilder builder = new StringBuilder(name);
         for(Component component:this.components){
             builder.append("\n");
             builder.append(component.operation());
